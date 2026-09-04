@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MikuStore - Katalog Produk Hatsune Miku</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-miku">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#beranda">&#9834; MikuStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#beranda">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produk">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#keunggulan">Keunggulan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="bagian-hero text-white text-center">
+        <div class="container">
+            <h1 class="judul-hero">Selamat Datang di Dunia Hatsune Miku!</h1>
+            <p class="teks-hero">Temukan koleksi merchandise virtual diva nomor satu di dunia. Dari figurine, poster, sampai aksesoris keren.</p>
+            <a href="#produk" class="btn btn-miku btn-lg">Lihat Katalog Produk</a>
+        </div>
+    </section>
+
+    <section id="produk" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="judul-bagian">Katalog Produk Miku</h2>
+                <p class="text-secondary">Pilih merchandise favoritmu dan pesan sekarang.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/produk1.jpg" srcset="img/produk1-400.jpg 400w, img/produk1-900.jpg 900w, img/produk1.jpg 1920w" sizes="(max-width: 575px) 100vw, (max-width: 1199px) 50vw, 25vw" class="card-img-top" alt="Figurine Hatsune Miku Classic" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <span class="label-kategori">Figurine</span>
+                            <h5 class="card-title">Figurine Miku Classic Ver.</h5>
+                            <p class="card-text text-secondary">Figurine PVC tinggi 24 cm, pose khas Miku dengan twintail ikonik.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <span class="harga-produk">Rp850.000</span>
+                                <a href="#" class="btn btn-miku btn-sm">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/produk2.jpg" srcset="img/produk2-400.jpg 400w, img/produk2-900.jpg 900w, img/produk2.jpg 1920w" sizes="(max-width: 575px) 100vw, (max-width: 1199px) 50vw, 25vw" class="card-img-top" alt="Poster Neon Hatsune Miku" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <span class="label-kategori">Poster</span>
+                            <h5 class="card-title">Poster Neon Miku A2</h5>
+                            <p class="card-text text-secondary">Poster art neon glow ukuran A2, cocok buat dekorasi kamar otaku.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <span class="harga-produk">Rp75.000</span>
+                                <a href="#" class="btn btn-miku btn-sm">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/produk3.jpg" srcset="img/produk3-400.jpg 400w, img/produk3-900.jpg 900w, img/produk3.jpg 1920w" sizes="(max-width: 575px) 100vw, (max-width: 1199px) 50vw, 25vw" class="card-img-top" alt="Mousepad Anime Hatsune Miku" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <span class="label-kategori">Aksesoris PC</span>
+                            <h5 class="card-title">Mousepad Otaku Miku</h5>
+                            <p class="card-text text-secondary">Mousepad besar 80x30 cm dengan permukaan halus dan alas anti selip.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <span class="harga-produk">Rp120.000</span>
+                                <a href="#" class="btn btn-miku btn-sm">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/produk4.jpg" srcset="img/produk4-400.jpg 400w, img/produk4-900.jpg 900w, img/produk4.jpg 1920w" sizes="(max-width: 575px) 100vw, (max-width: 1199px) 50vw, 25vw" class="card-img-top" alt="Mug Keramik Hatsune Miku" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <span class="label-kategori">Home & Living</span>
+                            <h5 class="card-title">Mug Keramik Miku</h5>
+                            <p class="card-text text-secondary">Mug keramik 350 ml dengan printing art Miku tahan lama, aman buat microwave.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <span class="harga-produk">Rp95.000</span>
+                                <a href="#" class="btn btn-miku btn-sm">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/produk5.jpg" srcset="img/produk5-400.jpg 400w, img/produk5-900.jpg 900w, img/produk5.jpg 1920w" sizes="(max-width: 575px) 100vw, (max-width: 1199px) 50vw, 25vw" class="card-img-top" alt="Gantungan Kunci Akrilik Hatsune Miku" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <span class="label-kategori">Aksesoris</span>
+                            <h5 class="card-title">Gantungan Kunci Akrilik</h5>
+                            <p class="card-text text-secondary">Keychain akrilik premium dua sisi dengan art chibi Miku yang lucu.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <span class="harga-produk">Rp45.000</span>
+                                <a href="#" class="btn btn-miku btn-sm">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/produk6.jpg" srcset="img/produk6-400.jpg 400w, img/produk6-900.jpg 900w, img/produk6.jpg 1920w" sizes="(max-width: 575px) 100vw, (max-width: 1199px) 50vw, 25vw" class="card-img-top" alt="Kaos Anime Hatsune Miku" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <span class="label-kategori">Fashion</span>
+                            <h5 class="card-title">Kaos Anime Miku</h5>
+                            <p class="card-text text-secondary">Kaos cotton combed 30s dengan sablon art Miku, nyaman dipakai sehari-hari.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <span class="harga-produk">Rp165.000</span>
+                                <a href="#" class="btn btn-miku btn-sm">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="keunggulan" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="judul-bagian">Kenapa MikuStore?</h2>
+            </div>
+            <div class="row text-center g-4">
+                <div class="col-12 col-md-4">
+                    <div class="p-4 rounded border">
+                        <span class="icon-bulat mb-3">&#9733;</span>
+                        <h4>Produk Original</h4>
+                        <p class="text-secondary mb-0">Semua merchandise dijamin original dan resmi berlisensi.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="p-4 rounded border">
+                        <span class="icon-bulat mb-3">&#9889;</span>
+                        <h4>Pengiriman Cepat</h4>
+                        <p class="text-secondary mb-0">Barang dikirim di hari yang sama untuk area Jabodetabek.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="p-4 rounded border">
+                        <span class="icon-bulat mb-3">&#10084;</span>
+                        <h4>Komunitas Fans</h4>
+                        <p class="text-secondary mb-0">Gratis stiker eksklusif untuk setiap pembelian merchandise Miku.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="judul-bagian">Hubungi Kami</h2>
+                <p class="text-secondary">Butuh bantuan? Tim kami siap melayani setiap hari.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <form class="border rounded p-4 bg-white">
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="nama" placeholder="Masukkan nama kamu">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="nama@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan kamu di sini"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-miku w-100">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-miku pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <h5 class="fw-bold">&#9834; MikuStore</h5>
+                    <p class="mb-0">Toko merchandise virtual diva terpercaya sejak 2020. Miku, Miku, ooh-ee-oh!</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5>Tautan</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#produk">Produk</a></li>
+                        <li><a href="#keunggulan">Keunggulan</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5>Kontak</h5>
+                    <p class="mb-1">Dunia Paralel SEKAI, Distrik Digital Land</p>
+                    <p class="mb-1">Jl. Twintail No. 39, Negeri Vocaloid</p>
+                    <p class="mb-1">0821-DIVA-MIKU (Telepon Peri)</p>
+                    <p class="mb-0">halo@mikustore.sekai</p>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <p class="text-center text-white mb-0">&copy; 2026 MikuStore. Dibuat oleh Heril Destriawan (4253250006 - PSIK 25C) untuk Tugas Rutin 3 Pemrograman Web.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

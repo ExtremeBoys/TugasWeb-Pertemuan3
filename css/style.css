@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+    background-color: #f2fbfa;
+    color: #17252b;
+}
+
+.bg-miku {
+    background-color: #39c5bb !important;
+}
+
+.btn-miku {
+    background-color: #39c5bb;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 22px;
+}
+
+.btn-miku:hover {
+    background-color: #26a8a0;
+    color: #ffffff;
+}
+
+.bagian-hero {
+    background-image: linear-gradient(180deg, rgba(23, 37, 43, 0.7), rgba(23, 37, 43, 0.4)), url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.judul-hero {
+    font-size: clamp(1.6rem, 0.8rem + 4vw, 3rem);
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.teks-hero {
+    font-size: clamp(0.9rem, 0.7rem + 1vw, 1.2rem);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.judul-bagian {
+    font-size: clamp(1.3rem, 1rem + 2vw, 2.2rem);
+    font-weight: 700;
+    color: #26a8a0;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.label-kategori {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #33b6ff;
+    margin-bottom: 4px;
+}
+
+.harga-produk {
+    font-size: 17px;
+    font-weight: 700;
+    color: #26a8a0;
+}
+
+.icon-bulat {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 50%;
+    background-color: #39c5bb;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: #39c5bb;
+    box-shadow: 0 0 0 3px rgba(57, 197, 187, 0.25);
+}
+
+.footer-miku {
+    background-color: #17252b;
+    color: #ffffff;
+}
+
+.footer-miku a {
+    color: #39c5bb;
+    text-decoration: none;
+}
+
+.footer-miku a:hover {
+    color: #33b6ff;
+}
+
+.footer-miku hr {
+    border-color: #3d5a63;
+}
+
+@media (min-width: 576px) {
+    .bagian-hero {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .card-img-top {
+        height: 230px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bagian-hero {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bagian-hero {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-img-top {
+        height: 220px;
+    }
+}
